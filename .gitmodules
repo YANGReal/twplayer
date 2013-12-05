@@ -1,0 +1,3 @@
+[submodule "kxmovie"]
+	path = kxmovie
+	url = https://github.com/lvjian700/kxmovie.git
