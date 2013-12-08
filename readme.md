@@ -1,13 +1,13 @@
 twplayer, a stream media player.	
 
 
-##Setup dependencis:	
+##Setup dependencies:	
 
 	git clone [repo]
 	cd twplayer
 	./setup.sh	
 
-##Development	
+##For Development	
 
 Open twplayer.xcworkspace. Change the media url by yourself.		
 
@@ -16,6 +16,11 @@ Open twplayer.xcworkspace. Change the media url by yourself.
 	    UIViewController *vc = [KxMovieViewController movieViewControllerWithContentPath:path parameters:nil];
 		[self presentViewController:vc animated:YES completion:nil ];
 	}	
+
+##Tools: 
+
+You can find __Podfile__ in this project. More information see this link: <http://www.cocoapods.org>	
+
 
 Licensei: LGPL v3
 
