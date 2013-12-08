@@ -1,8 +1,10 @@
 #!/bin/sh
-if [ -n `which pod`]; then	
-	echo "cocoapods not found, install ...."
-	sudo gem install cocoapods 
+if [ -n `which pod` ]; then	
+	echo "cocoapods is existed."
 else
+	echo "cocoapods not found, install ...."
+	echo "see more info from: http://cocoapods.org"
+	sudo gem install cocoapods 
 fi
 
 pod install
