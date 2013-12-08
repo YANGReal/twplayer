@@ -10,4 +10,7 @@
 
 @interface TWViewController : UIViewController
 
+
+- (IBAction)play:(id)sender;
+
 @end
