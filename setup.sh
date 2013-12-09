@@ -8,7 +8,7 @@ else
 fi
 
 pod install
-git submodule init
+git submodule update 
 
 
 SCRIPT_ROOT=$(dirname $0)
