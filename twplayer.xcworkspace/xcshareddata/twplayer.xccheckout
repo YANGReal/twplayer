@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>11AD6CF5-D0B6-453C-888D-D41ED8922D9D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>twplayer</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>625C1531-7F50-4047-BB58-874338169A5A</key>
+		<string>https://github.com/lvjian700/kxmovie.git</string>
+		<key>944E6940-FD6A-4F65-A38C-92FDF0CF7A82</key>
+		<string>https://github.com/lvjian700/twplayer.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>twplayer.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>625C1531-7F50-4047-BB58-874338169A5A</key>
+		<string>../kxmovie</string>
+		<key>944E6940-FD6A-4F65-A38C-92FDF0CF7A82</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/lvjian700/twplayer.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>944E6940-FD6A-4F65-A38C-92FDF0CF7A82</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>625C1531-7F50-4047-BB58-874338169A5A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>kxmovie</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>944E6940-FD6A-4F65-A38C-92FDF0CF7A82</string>
+			<key>IDESourceControlWCCName</key>
+			<string>twplayer</string>
+		</dict>
+	</array>
+</dict>
+</plist>
