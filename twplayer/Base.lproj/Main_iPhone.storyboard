@@ -16,9 +16,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3zZ-bH-oXu">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3zZ-bH-oXu">
                                 <rect key="frame" x="80" y="202" width="139" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="139" id="EyZ-Cd-MCB"/>
+                                </constraints>
                                 <state key="normal" title="Play">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -28,6 +31,11 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="3zZ-bH-oXu" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="80" id="e6d-om-0sJ"/>
+                            <constraint firstItem="3zZ-bH-oXu" firstAttribute="top" secondItem="1tp-4e-RHx" secondAttribute="bottom" constant="182" id="yWl-9r-Uzq"/>
+                            <constraint firstItem="xIA-Gh-ZFy" firstAttribute="top" secondItem="3zZ-bH-oXu" secondAttribute="bottom" constant="312" id="yhd-oU-39t"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
