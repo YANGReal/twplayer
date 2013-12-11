@@ -9,6 +9,8 @@
 #import "TWViewController.h"
 #import <KxMovieViewController.h>
 
+#define SampleVideoURL @"http://media.w3.org/2010/05/sintel/trailer.mp4"
+
 @interface TWViewController ()
 
 @end
@@ -28,7 +30,7 @@
 }
 
 - (IBAction)play:(id)sender {
-    NSString *path = @"http://10.29.100.80/shield0109.mp4";
+    NSString *path = SampleVideoURL;
     UIViewController *vc = [KxMovieViewController movieViewControllerWithContentPath:path parameters:nil];
     [self presentViewController:vc animated:YES completion:nil ];
 }
