@@ -28,7 +28,7 @@
 }
 
 - (IBAction)play:(id)sender {
-    NSString *path = @"http://192.168.1.104/shield0109.mp4";
+    NSString *path = @"http://10.29.100.80/shield0109.mp4";
     UIViewController *vc = [KxMovieViewController movieViewControllerWithContentPath:path parameters:nil];
     [self presentViewController:vc animated:YES completion:nil ];
 }
